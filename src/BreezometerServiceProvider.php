@@ -1,11 +1,16 @@
 <?php namespace Nwidart\BreeezometerLaravel;
 
 use Illuminate\Support\ServiceProvider;
+use Nwidart\Breezometer\Breezometer;
 
 class BreezometerServiceProvider extends ServiceProvider
 {
     public function register()
     {
+        $this->app->bindShared('Nwidart\Breezometer\Breezometer', function () {
+            return new Breezometer(config('breezometer.api_key'));
+        });
+
         $this->registerConfiguration();
     }
 
