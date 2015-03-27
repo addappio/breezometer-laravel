@@ -1,4 +1,4 @@
-<?php namespace Nwidart\BreeezometerLaravel;
+<?php namespace Nwidart\BreezometerLaravel;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
