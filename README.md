@@ -7,7 +7,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/nwidart/breezometer-laravel.svg?style=flat-square)](https://scrutinizer-ci.com/g/nwidart/breezometer-laravel)
 [![Total Downloads](https://img.shields.io/packagist/dt/nwidart/breezometer-laravel.svg?style=flat-square)](https://packagist.org/packages/nwidart/breezometer-laravel)
 
-Laravel implementation of the Breezometer-php client
+Laravel implementation of the [Breezometer-php client](https://github.com/nWidart/Breezometer-php). This contains a service provider and a facade.
 
 ## Install
 
@@ -17,7 +17,23 @@ Via Composer
 $ composer require nwidart/breezometer-laravel
 ```
 
+Add the service provider to `config/app.php`
+
+``` php
+'Nwidart\BreezometerLaravel\BreezometerServiceProvider'
+```
+
+Optional: Publish the configuration file
+
+``` bash
+$ php artisan vendor:publish --provider="Nwidart\BreezometerLaravel\BreezometerServiceProvider"
+```
 ## Usage
+
+
+Inject the `Breezometer` class into your methods/constructors. Or use the `Breezometer` Facade.
+
+For information on the usage of the Breezometer class, please refer to the [original repository](https://github.com/nWidart/Breezometer-php).
 
 
 ## Testing
