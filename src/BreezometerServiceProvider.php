@@ -8,11 +8,12 @@ class BreezometerServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app->bindShared('Nwidart\Breezometer\Breezometer', function () {
-            return new Breezometer(config('breezometer.api_key'));
+        $this->package('nwidart/breezometer-laravel');
+
+        $this->app->bindShared('Nwidart\Breezometer\Breezometer', function ($app) {
+            return new Breezometer($app['config']->get('breezometer-laravel::api_key'));
         });
 
-        $this->package('nwidart/breezometer-laravel');
         $this->registerAlias();
     }
 
