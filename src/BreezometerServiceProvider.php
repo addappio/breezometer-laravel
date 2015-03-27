@@ -1,5 +1,6 @@
 <?php namespace Nwidart\BreeezometerLaravel;
 
+use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 use Nwidart\Breezometer\Breezometer;
 
@@ -12,6 +13,7 @@ class BreezometerServiceProvider extends ServiceProvider
         });
 
         $this->registerConfiguration();
+        $this->registerAlias();
     }
 
     /**
@@ -23,5 +25,14 @@ class BreezometerServiceProvider extends ServiceProvider
         $configPath = __DIR__ . '/../config/breezometer.php';
         $this->mergeConfigFrom($configPath, 'breezometer');
         $this->publishes([$configPath => config_path('breezometer.php')]);
+    }
+
+    /**
+     * Register the Breezometer laravel facade.
+     */
+    private function registerAlias()
+    {
+        $aliasLoader = AliasLoader::getInstance();
+        $aliasLoader->alias('Breezometer', 'Nwidart\Breezometer\Breezometer');
     }
 }
