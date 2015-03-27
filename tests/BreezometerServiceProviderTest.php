@@ -4,7 +4,7 @@ use Orchestra\Testbench\TestCase;
 
 class BreezometerServiceProviderTest extends TestCase
 {
-    protected function getPackageProviders($app)
+    protected function getPackageProviders()
     {
         return [
             'Nwidart\BreezometerLaravel\BreezometerServiceProvider',
