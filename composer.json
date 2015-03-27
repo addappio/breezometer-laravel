@@ -35,7 +35,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Nwidart\\BreezometerLaravel\\Tests\\": "tests"
+            "Nwidart\\BreezometerLaravel\\tests\\": "tests"
         }
     },
     "extra": {
