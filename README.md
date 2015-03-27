@@ -9,6 +9,11 @@
 
 Laravel implementation of the [Breezometer-php client](https://github.com/nWidart/Breezometer-php). This contains a service provider and a facade.
 
+ Laravel  | Testbench
+:---------|:----------
+ 4.2.x    | dev-laravel-4
+ 5.0.x    | 1.0.*@dev
+ 
 ## Install
 
 Via Composer
