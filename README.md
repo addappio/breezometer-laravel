@@ -26,7 +26,7 @@ Add the service provider to `config/app.php`
 Optional: Publish the configuration file
 
 ``` bash
-$ php artisan vendor:publish --provider="Nwidart\BreezometerLaravel\BreezometerServiceProvider"
+$ php artisan config:publish nwidart/breezometer-laravel
 ```
 ## Usage
 
