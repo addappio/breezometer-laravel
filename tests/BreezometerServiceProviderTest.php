@@ -11,6 +11,13 @@ class BreezometerServiceProviderTest extends TestCase
         ];
     }
 
+    protected function getPackageAliases()
+    {
+        return [
+            'Breezometer' => 'Nwidart\Breezometer\Breezometer'
+        ];
+    }
+
     /** @test */
     public function it_should_find_service_provider()
     {
