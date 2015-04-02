@@ -1,5 +1,5 @@
 {
-    "name": "nwidart/breezometer-laravel",
+    "name": "addapp/breezometer-laravel",
     "description": "Laravel implementation of the Breezometer-php client",
     "keywords": [
         "Breezometer",
@@ -8,7 +8,7 @@
         "Laravel",
         "breezometer-laravel"
     ],
-    "homepage": "https://github.com/nwidart/breezometer-laravel",
+    "homepage": "https://github.com/addappio/breezometer-laravel",
     "license": "MIT",
     "authors": [
         {
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Nwidart\\BreezometerLaravel\\": "src"
+            "Addapp\\BreezometerLaravel\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Nwidart\\BreezometerLaravel\\tests\\": "tests"
+            "Addapp\\BreezometerLaravel\\tests\\": "tests"
         }
     },
     "extra": {

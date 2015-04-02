@@ -1,14 +1,14 @@
-<?php namespace Nwidart\BreezometerLaravel;
+<?php namespace Addapp\BreezometerLaravel;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
-use Nwidart\Breezometer\Breezometer;
+use Addapp\Breezometer\Breezometer;
 
 class BreezometerServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app->bindShared('Nwidart\Breezometer\Breezometer', function () {
+        $this->app->bindShared('Addapp\Breezometer\Breezometer', function () {
             return new Breezometer(config('breezometer.api_key'));
         });
 
@@ -33,6 +33,6 @@ class BreezometerServiceProvider extends ServiceProvider
     private function registerAlias()
     {
         $aliasLoader = AliasLoader::getInstance();
-        $aliasLoader->alias('Breezometer', 'Nwidart\Breezometer\Breezometer');
+        $aliasLoader->alias('Breezometer', 'Addapp\Breezometer\Breezometer');
     }
 }

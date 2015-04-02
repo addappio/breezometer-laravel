@@ -13,7 +13,7 @@ Laravel implementation of the [Breezometer-php client](https://github.com/nWidar
 :---------|:----------
  4.2.x    | dev-laravel-4
  5.0.x    | 1.0.*@dev
- 
+
 ## Install
 
 Via Composer
@@ -25,13 +25,13 @@ $ composer require nwidart/breezometer-laravel
 Add the service provider to `config/app.php`
 
 ``` php
-'Nwidart\BreezometerLaravel\BreezometerServiceProvider'
+'Addapp\BreezometerLaravel\BreezometerServiceProvider'
 ```
 
 Optional: Publish the configuration file
 
 ``` bash
-$ php artisan vendor:publish --provider="Nwidart\BreezometerLaravel\BreezometerServiceProvider"
+$ php artisan vendor:publish --provider="Addapp\BreezometerLaravel\BreezometerServiceProvider"
 ```
 ## Usage
 
