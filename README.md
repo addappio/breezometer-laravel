@@ -19,7 +19,7 @@ Laravel implementation of the [Breezometer-php client](https://github.com/addapp
 Via Composer
 
 ``` bash
-$ composer require nwidart/breezometer-laravel
+$ composer require addapp/breezometer-laravel
 ```
 
 Add the service provider to `config/app.php`
