@@ -5,7 +5,7 @@
 [![Build Status](https://img.shields.io/travis/addappio/breezometer-laravel/master.svg?style=flat-square)](https://travis-ci.org/addappio/breezometer-laravel)
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/addappio/breezometer-laravel.svg?style=flat-square)](https://scrutinizer-ci.com/g/addappio/breezometer-laravel/code-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/addappio/breezometer-laravel.svg?style=flat-square)](https://scrutinizer-ci.com/g/addappio/breezometer-laravel)
-[![Total Downloads](https://img.shields.io/packagist/dt/addappio/breezometer-laravel.svg?style=flat-square)](https://packagist.org/packages/addappio/breezometer-laravel)
+[![Total Downloads](https://img.shields.io/packagist/dt/addapp/breezometer-laravel.svg?style=flat-square)](https://packagist.org/packages/addapp/breezometer-laravel)
 
 Laravel implementation of the [Breezometer-php client](https://github.com/addappio/breezometer-php). This contains a service provider and a facade.
 
