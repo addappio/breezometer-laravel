@@ -1,13 +1,13 @@
 # Breezometer-laravel
 
-[![Latest Version](https://img.shields.io/github/release/nwidart/breezometer-laravel.svg?style=flat-square)](https://github.com/nwidart/breezometer-laravel/releases)
+[![Latest Version](https://img.shields.io/github/release/addappio/breezometer-laravel.svg?style=flat-square)](https://github.com/addappio/breezometer-laravel/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/nWidart/Breezometer-laravel/laravel-4.svg?style=flat-square)](https://travis-ci.org/nWidart/Breezometer-laravel)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/nwidart/breezometer-laravel.svg?style=flat-square)](https://scrutinizer-ci.com/g/nwidart/breezometer-laravel/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/nwidart/breezometer-laravel.svg?style=flat-square)](https://scrutinizer-ci.com/g/nwidart/breezometer-laravel)
-[![Total Downloads](https://img.shields.io/packagist/dt/nwidart/breezometer-laravel.svg?style=flat-square)](https://packagist.org/packages/nwidart/breezometer-laravel)
+[![Build Status](https://img.shields.io/travis/addapp/Breezometer-laravel/laravel-4.svg?style=flat-square)](https://travis-ci.org/addapp/Breezometer-laravel)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/addappio/breezometer-laravel.svg?style=flat-square)](https://scrutinizer-ci.com/g/addappio/breezometer-laravel/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/addappio/breezometer-laravel.svg?style=flat-square)](https://scrutinizer-ci.com/g/addappio/breezometer-laravel)
+[![Total Downloads](https://img.shields.io/packagist/dt/addapp/breezometer-laravel.svg?style=flat-square)](https://packagist.org/packages/addapp/breezometer-laravel)
 
-Laravel implementation of the [Breezometer-php client](https://github.com/nWidart/Breezometer-php). This contains a service provider and a facade.
+Laravel implementation of the [Breezometer-php client](https://github.com/addappio/Breezometer-php). This contains a service provider and a facade.
 
  Laravel  | Testbench
 :---------|:----------
@@ -19,26 +19,26 @@ Laravel implementation of the [Breezometer-php client](https://github.com/nWidar
 Via Composer
 
 ``` bash
-$ composer require nwidart/breezometer-laravel
+$ composer require addapp/breezometer-laravel
 ```
 
 Add the service provider to `config/app.php`
 
 ``` php
-'Nwidart\BreezometerLaravel\BreezometerServiceProvider'
+'Addapp\BreezometerLaravel\BreezometerServiceProvider'
 ```
 
 Optional: Publish the configuration file
 
 ``` bash
-$ php artisan config:publish nwidart/breezometer-laravel
+$ php artisan config:publish addapp/breezometer-laravel
 ```
 ## Usage
 
 
 Inject the `Breezometer` class into your methods/constructors. Or use the `Breezometer` Facade.
 
-For information on the usage of the Breezometer class, please refer to the [original repository](https://github.com/nWidart/Breezometer-php).
+For information on the usage of the Breezometer class, please refer to the [original repository](https://github.com/addappio/Breezometer-php).
 
 
 ## Testing

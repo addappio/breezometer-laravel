@@ -1,4 +1,4 @@
-<?php namespace Nwidart\BreeezometerLaravel;
+<?php namespace Addapp\BreeezometerLaravel;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -6,6 +6,6 @@ class Breezometer extends Facade
 {
     public static function getFacadeAccessor()
     {
-        return 'Nwidart\Breezometer\Breezometer';
+        return 'Addapp\Breezometer\Breezometer';
     }
 }

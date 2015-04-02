@@ -1,4 +1,4 @@
-<?php namespace Nwidart\BreezometerLaravel\Tests;
+<?php namespace Addapp\BreezometerLaravel\Tests;
 
 use Orchestra\Testbench\TestCase;
 
@@ -7,14 +7,14 @@ class BreezometerServiceProviderTest extends TestCase
     protected function getPackageProviders()
     {
         return [
-            'Nwidart\BreezometerLaravel\BreezometerServiceProvider',
+            'Addapp\BreezometerLaravel\BreezometerServiceProvider',
         ];
     }
 
     protected function getPackageAliases()
     {
         return [
-            'Breezometer' => 'Nwidart\Breezometer\Breezometer'
+            'Breezometer' => 'Addapp\Breezometer\Breezometer'
         ];
     }
 
