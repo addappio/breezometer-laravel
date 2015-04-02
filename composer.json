@@ -21,7 +21,7 @@
     "require": {
         "php" : ">=5.4.0",
         "illuminate/support": "~5.0",
-        "nwidart/breezometer-php": "1.0.*@dev"
+        "addapp/breezometer-php": "1.0.*@dev"
     },
     "require-dev": {
         "phpunit/phpunit" : "4.*",
