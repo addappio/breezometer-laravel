@@ -7,7 +7,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/nwidart/breezometer-laravel.svg?style=flat-square)](https://scrutinizer-ci.com/g/nwidart/breezometer-laravel)
 [![Total Downloads](https://img.shields.io/packagist/dt/nwidart/breezometer-laravel.svg?style=flat-square)](https://packagist.org/packages/nwidart/breezometer-laravel)
 
-Laravel implementation of the [Breezometer-php client](https://github.com/nWidart/Breezometer-php). This contains a service provider and a facade.
+Laravel implementation of the [Breezometer-php client](https://github.com/addappio/breezometer-php). This contains a service provider and a facade.
 
  Laravel  | Testbench
 :---------|:----------
@@ -38,7 +38,7 @@ $ php artisan vendor:publish --provider="Addapp\BreezometerLaravel\BreezometerSe
 
 Inject the `Breezometer` class into your methods/constructors. Or use the `Breezometer` Facade.
 
-For information on the usage of the Breezometer class, please refer to the [original repository](https://github.com/nWidart/Breezometer-php).
+For information on the usage of the Breezometer class, please refer to the [original repository](https://github.com/addappio/Breezometer-php).
 
 
 ## Testing
